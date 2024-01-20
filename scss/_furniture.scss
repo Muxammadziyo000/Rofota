@@ -1,0 +1,47 @@
+.furniture{
+    background: rgba(181, 217, 210, 0.36);
+}
+.furniture_wrapper{
+    display: flex;
+    .furniture_text{
+        margin-top: 350px;
+    }
+    .furniture_img{
+        margin-top: 80px;
+        width: 793px;
+        height: 738px;
+    }
+   p{
+    color: #000;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   }
+   h2{
+    width: 584px;
+    color: rgba(0, 0, 0, 0.83);
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
+   button{
+   margin-top: 30px;
+    width: 252px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #2A7361;
+    border: none;
+    
+    color: #FFf;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+   }
+}

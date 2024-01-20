@@ -1,0 +1,38 @@
+.galleries{
+    margin-top: 100px;
+    .galleries_wrapper{
+        h1{
+           
+           
+            color: #000;
+            font-family: Poppins;
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+             text-align: center;
+        }
+        p{
+            color: rgba(0, 0, 0, 0.85);
+            text-align: center;
+            font-family: Inter;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: norma
+        }
+        .galleries_img{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            .galleries_img_first{
+                display: flex;
+              
+            }
+            .galleries_img_second{
+                display: flex;
+              
+            }
+        }
+  }
+    }

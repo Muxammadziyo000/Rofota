@@ -1,0 +1,82 @@
+.created{
+    background: rgba(181, 217, 210, 0.36);
+    margin-top: 60px;
+    .created_wrapper{
+        display: flex;
+        .created_text{
+            h1{
+                width: 412px;
+                color: #000;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-top: 100px;
+            }
+            p{
+                color: rgba(0, 0, 0, 0.85);
+                font-family: Inter;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-top: 40px;
+            }
+            button{
+                width: 252px;
+                height: 72px;
+                flex-shrink: 0;
+                border-radius: 35px;
+                background: #2A7361;
+                color: #FFF;
+                font-family: Inter;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                border: none;
+                margin-top: 50px;
+            }
+        }
+        .created_talents{
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 100px;
+            .created_talent{
+                display: flex;
+                width: 350px;
+                height: 170px;
+                flex-wrap: wrap;
+                img{
+                    width: 32px;
+                    height: 32px;
+                    background-color: #2A7361;
+                }
+                h4{
+                    margin-left: 10px;
+                    color: #000;
+                    font-family: Inter;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    height: 43px;
+                   
+                }
+                p{
+                    color: rgba(0, 0, 0, 0.85);
+                    font-family: Inter;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-left: 40px;
+                    
+
+                }
+            }
+        }
+    }
+}

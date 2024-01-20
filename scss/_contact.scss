@@ -1,0 +1,55 @@
+.contact{
+    background: #E4F1EF;
+    margin-top: 100px;
+    .contact_wrapper{
+        display: flex;
+        .contact_info{
+            h3{
+                color: #000;
+                text-align: center;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-bottom: 50px;
+            }
+            p{
+                color: #000;
+                font-family: Inter;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+            input{
+                width: 687px;
+                height: 74px;
+                flex-shrink: 0;
+                border: 1px solid rgba(0, 0, 0, 0.20);
+                background: #FAFFFE;
+            }
+            .input{
+                height: 200px;
+            }
+            button{
+                margin-top: 50px;
+                width: 429px;
+                height: 101px;
+                flex-shrink: 0;
+                border-radius: 45px;
+                border: 0.5px solid rgba(0, 0, 0, 0.20);
+                background: #2A7361;
+                text-align: center;
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                color: #FFF;
+
+
+            }
+        }
+    }
+}
